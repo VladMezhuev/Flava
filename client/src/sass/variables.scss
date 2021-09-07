@@ -1,0 +1,25 @@
+:root {
+  // bg-color
+  --theme-accent-main: #feba08;
+  --theme-accent-second: #121212;
+  --theme-accent-third: #fff;
+
+  // text-color
+  --theme-text-1: #fff;
+  --theme-text-2: #feba08;
+  --theme-text-3: #121212;
+
+  // sizes
+  --container-width: 100%;
+  --mq-size-sm: 576px;
+  --mq-size-md: 768px;
+  --mq-size-lg: 992px;
+  --mq-size-xl: 1200px;
+
+  // font-sizes
+  --fz-size-sm: 18px;
+  --fz-size-md: 24px;
+  --fz-size-lg: 36px;
+  --fz-size-xs: 48px;
+  --fz-size-xl: 72px;
+}

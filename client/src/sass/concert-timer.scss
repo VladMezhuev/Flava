@@ -1,0 +1,64 @@
+.concert-timer {
+  padding-top: 50px;
+  background-color: var(--theme-accent-second);
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    white-space: nowrap;
+  }
+
+  &__button {
+    width: 150px;
+    height: 51px;
+  }
+}
+
+.timer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px 60px;
+
+  @media (min-width: 768px) {
+    padding: 40px 90px;
+  }
+  @media (min-width: 992px) {
+    padding: 40px 150px;
+  }
+  @media (min-width: 1200px) {
+    padding: 40px 274px;
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    padding: 5px 2px;
+
+    @media (min-width: 768px) {
+      width: 25%;
+    }
+  }
+
+  &__count {
+    font-weight: bold;
+    font-size: var(--fz-size-xl);
+    line-height: 133.69%;
+    color: var(--theme-text-1);
+  }
+
+  &__text {
+    font-family: Roboto;
+    font-weight: 500;
+    color: var(--theme-text-1);
+    font-size: var(--fz-size-sm);
+    line-height: 21px;
+    text-transform: uppercase;
+  }
+}

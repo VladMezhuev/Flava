@@ -1,0 +1,50 @@
+
+// ПЕРЕМЕННЫЕ================================================================================
+
+@import "variables"
+@import "node_modules/slick-carousel/slick/slick.scss"
+// ПЕРЕМЕННЫЕ================================================================================
+
+// ОБНУЛЕНИЕ И ОБЩИЕ ПАРАМЕТРЫ===============================================================
+@import "null"
+
+body
+   font-family: Poppins
+   font-size: var(--fz-size-sm)
+   background-color: var(--color-white)
+   &.is-disabled
+      overflow: hidden
+
+// ОБНУЛЕНИЕ И ОБЩИЕ ПАРАМЕТРЫ===============================================================
+
+// ОСНОВНАЯ СЕТКА============================================================================
+.container
+   max-width: var(--container-width)
+   margin: 0 auto
+   padding: 0 15px
+   @media (min-width: 576px)
+      --container-width: var(--mq-size-sm)
+
+   @media (min-width: 768px)
+      --container-width: var(--mq-size-md)
+
+   @media (min-width: 992px)
+      --container-width: var(--mq-size-lg)
+
+   @media (min-width: 1200px)
+      --container-width: var(--mq-size-xl)
+
+// ОСНОВНАЯ СЕТКА============================================================================
+
+// СТРАНИЦЫ И ЭЛЕМЕНТЫ=======================================================================
+@import "ui"
+
+@import "header"
+@import "intro"
+@import "concert-timer"
+@import "lineup"
+@import "sponsors"
+@import "form-block"
+@import "subscribe"
+@import "footer"
+// СТРАНИЦЫ И ЭЛЕМЕНТЫ=======================================================================
